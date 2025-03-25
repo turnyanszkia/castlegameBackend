@@ -13,6 +13,7 @@ namespace castlegameBackend
 
         public static Dictionary<string, User> LoggedInUsers = new Dictionary<string, User>();
 
+
         public static string GenerateSalt()
         {
             Random random = new Random();
